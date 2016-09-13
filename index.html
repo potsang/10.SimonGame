@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+
+	<title></title>
+	<meta name="description" content="">
+	<meta name="author" content="Potsang Huang">
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--[if lt IE 9]>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+	<![endif]-->	
+</head>
+
+<body>
+	<div class="container donut-ring">
+		<div class="ring green border" id="green"></div>
+		<div class="ring red border" id="red"></div>
+		<div class="ring blue border" id="blue"></div>
+		<div class="ring orange border" id="orange"></div>
+		<div class="cutout border">
+			<div class="row">
+				<div class="col-xs-12 text-center">
+					<h1  id="simon">Simon<sup>&reg;</sup></h1>
+				</div>				
+			</div>
+			<div class="row" id="led-row">
+				<div class="col-xs-1 col-xs-offset-8 text-center">
+					<div id="strict-led">
+					</div>
+				</div>
+			</div>
+			<div class="row" id="control-row">
+				<div class="col-xs-3 col-xs-offset-1 text-center">
+					<div id="count-led">
+						<p class="number"></p>
+					</div>
+					<p><strong>Count</strong></p>
+				</div>
+				<div class="col-xs-2 text-center">
+					<div class="control-btn">
+						<button class="start-btn"></button>
+					</div>
+					<p><strong>Start</strong></p>
+				</div>
+				<div class="col-xs-2 col-xs-offset-1 text-center">
+					<div class="control-btn">
+						<button class="strict-btn"></button>
+					</div>
+					<p><strong>Strict</strong></p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xs-12  text-center">
+					<input type="checkbox" id="switch" data-toggle="toggle" data-onstyle="success" data-offstyle="danger" data-on="ON" data-off="OFF">
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+
+</html>
